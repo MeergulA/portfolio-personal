@@ -1,0 +1,158 @@
+
+body{
+    margin: auto;
+    padding: auto;
+    max-width: 100%;
+}
+
+#logo{
+    font-size: 40px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-family: 'Montserrat';
+
+}
+
+header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+nav{
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #000000;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+#banner{
+    position: relative;
+    background-image: url("img/abstract.jpeg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0 200px;
+}
+
+#banner h2{
+    margin-top: 100px;
+    color: #556B2F;
+    font-size: 30px;
+    font-family:'Montserrat' ;
+}
+#banner p{
+    margin:auto;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    text-align: justify;
+}
+@media(max-width: 768px)
+{
+    #banner{
+        padding: 200px 0;
+    }  
+    #banner h2{
+        font-size: 1.8em;
+    }
+}
+#letter-banner{
+    position: relative;
+    background-image: url("/img/wall.jpeg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0 200px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.8;
+    font-family: 'Montserrat';
+    text-indent: 30px;
+}
+
+h6{
+    font-family: 'Montserrat';
+    font-weight: 100px;
+}
+
+.suggest{
+    margin-top: 50px;
+}
+.container{
+    text-align: center;
+}
+label{
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: lightpink;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+#banner-about{
+    position: relative;
+    background-image: url("/img/aboutimg.jpeg");
+    min-height: 100vh;
+    background-size: cover;
+    padding: 100px 0 200px;
+   
+}
+.intro{
+    position: relative;
+    margin: 150px 60px 50px 100px;
+    padding: none;
+    
+}
+img{
+     float: left;
+     margin: 10px 20px 20px 20px;
+     border-radius: 50%;
+    }
+
+.container-resume{
+    margin: 100px 100px 150px 80px;
+    border: 1px solid black;
+    padding: 60px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
